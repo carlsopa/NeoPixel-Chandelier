@@ -21,3 +21,5 @@ the "c" tells it that it will be a control message.  "on"/"off" tell it what to 
 
 a:pattern:pin:r:g: b :r:g:b <br>
 The "a" tells us that it will be patterns.  I have setup some specific patterns that use a shortened version that we will send using the payload.  The "pattern" tells the program what to show.  "pin" is linked to a specific set of lights to control.  I am not using an "all" here, as i thought it would be over kill, but it would be easy to adapt. "r","g","b"; these are the colors to use.  I am using 0-255 to control the colors, so each Red, Green, Blue value gets mapped.  I have it doubled up, as some patterns require two colors.  
+
+view demonstration of the chandelier <a href="https://www.youtube.com/watch?time_continue=2&v=eSuQJpV_RyI">Recycled Chandelier</a>
